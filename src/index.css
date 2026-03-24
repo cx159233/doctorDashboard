@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-scan-line: scan-line 4s linear infinite;
+  
+  @keyframes scan-line {
+    0% { top: 0%; opacity: 0; }
+    5% { opacity: 1; }
+    95% { opacity: 1; }
+    100% { top: 100%; opacity: 0; }
+  }
+
+  --color-medical-blue: #3b82f6;
+  --color-medical-dark: #020617;
+  --color-medical-glow: rgba(59, 130, 246, 0.15);
+}
+
+body {
+  background-color: #000814;
+  color: #f1f5f9;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.2);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.4);
+}

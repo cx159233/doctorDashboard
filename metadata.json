@@ -1,0 +1,5 @@
+{
+  "name": "健康数据共享中心-框架",
+  "description": "一个集成了全息病人视图、DICOM 影像调阅和临床诊疗数据的综合健康管理平台。",
+  "requestFramePermissions": []
+}
